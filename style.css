@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.nav-text {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.nav-text p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.nav-text p:hover {
+  color: orange;
+}
+.rasm {
+  background-image: url("./img/orqafon.png");
+  text-align: center;
+  color: white;
+  height: 620px;
+  padding-top: 70px;
+}
+.rasm h4 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+
+  margin-bottom: 30px;
+}
+.rasm h1 {
+  font-family: Poppins;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.20000000298023224px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 930px;
+}
+.rasm p {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  opacity: 0.5;
+  margin-bottom: 70px;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding-left: 30px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+
+  margin-bottom: 50px;
+}
+.btn:hover {
+  background-color: orange;
+}
+.btn:active {
+  transform: scale(0.8);
+}
+.btn1 {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding-left: 30px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+
+  margin-bottom: 50px;
+}
+.btn1:hover {
+  background-color: orange;
+}
+.btn1:active {
+  transform: scale(0.8);
+}
+
+.telefon {
+  position: absolute;
+  top: 480px;
+  left: 360px;
+  margin-bottom: 40px;
+}
+.h22 {
+  text-align: center;
+  margin-top: 70px;
+  font-family: Poppins;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  margin-bottom: 30px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  padding-left: 200px;
+  margin-bottom: 30px;
+}
+
+section h4 {
+  color: #fa4a0c;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+
+section h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  color: #252b42;
+  width: 561px;
+}
+
+section p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+  width: 467px;
+}
+
+main {
+  background-image: url("./img/orqafon2.png");
+  text-align: center;
+  color: white;
+  height: 500px;
+  padding-top: 170px;
+}
+
+main h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 930px;
+}
+main p {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+
+  margin-bottom: 70px;
+}
+.btn2 {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding-left: 30px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+
+  margin-bottom: 50px;
+}
+.btn2:hover {
+  background-color: orange;
+}
+.btn2:active {
+  transform: scale(0.8);
+}
+.btn3 {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding-left: 30px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+
+  margin-bottom: 50px;
+}
+.btn3:hover {
+  background-color: orange;
+}
+.btn3:active {
+  transform: scale(0.8);
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* padding-left: 190px; */
+  margin: 0 auto;
+  padding-top: 20px;
+  gap: 250px;
+  /* width: 1500px; */
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  justify-content: space-between;
+  /* margin-left: 300px; */
+}
+
+footer p {
+  margin-left: 130px;
+}
